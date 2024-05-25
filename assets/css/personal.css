@@ -1,0 +1,73 @@
+.header {    
+    background-image: url("../../img/imagen.jpg");
+    color: #ffffff;
+    font-family: Poppins-Regular;
+    font-size: larger;
+}
+
+.barra-desplazamiento {
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+    margin-right: 1em !important;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    background: #475166;
+    color: #ffffff;
+    font-family: Poppins-Regular;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-bottom p {
+    float: left;
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.noticia {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-text {
+    text-overflow: ellipsis !important;
+    height: 260px !important;
+    padding-top: 5%;
+}
+
+.card-title {
+    text-overflow: ellipsis !important;
+    height: 80px !important;
+}
+
+.card-body {
+    font-family: Poppins-Regular;
+}
+
+.nav-link{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.icofacebook{
+    font-size: 30px;
+}
+
+

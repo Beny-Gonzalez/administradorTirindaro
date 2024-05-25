@@ -1,0 +1,61 @@
+/********************
+Enlaces laterales
+********************/
+
+.icon-list {
+    position: fixed;
+    bottom: 0px;
+    /* right: 100px; */
+    width: 100%;
+    background: #475166;
+    z-index: 10000;
+    float: left;
+    display: flex;
+}
+
+.icon-list i {
+    color: #fff !important;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.icon-list a:hover>span {
+    visibility: initial;
+}
+
+.icon-list span {
+    visibility: hidden;
+    color: #fff;
+    font-size: 18px;
+}
+
+.icon-list a {
+    display: block;
+    padding: 8px;
+    transition: all 0.5s ease;
+    color: white;
+    font-size: 20px;
+    float: right;
+    width: 4%;
+    height: 53px;
+}
+
+
+/* HOver affect on icons */
+
+.icon-list a:hover {
+    color: #000;
+    width: 90%;
+}
+
+@media (max-width:900px) {
+    .icon-list i {
+        font-size: 20px !important;
+    }
+    .icon-list a {
+        width: 50px;
+    }
+    .icon-list span {
+        font-size: 13px !important;
+    }
+}
